@@ -1,0 +1,57 @@
+/* General container for the faculty section */
+.faculty-container {
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.faculty-content {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Paragraph text styling */
+.faculty-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: justify; /* Make the text aligned evenly */
+}
+
+/* Styled list for faculty specializations */
+.faculty-content ul {
+  list-style-type: none; /* Disable default bullet points */
+  padding-left: 0; /* Remove extra left padding */
+  margin-bottom: 30px;
+}
+
+/* Style each list item with a custom check mark */
+.faculty-content ul li {
+  font-size: 18px;
+  color: #02696C; /* Accent color for the text */
+  margin-bottom: 10px; /* Space between list items */
+  position: relative; /* To align the custom check mark */
+  padding-left: 25px; /* Add space to make room for the check mark */
+}
+
+/* Custom check mark before each list item */
+.faculty-content ul li:before {
+  content: '✓'; /* Custom check mark */
+  color: #004f74; /* Accent color for the check mark */
+  position: absolute;
+  left: 0;
+  font-size: 18px; /* Ensure the check mark is of appropriate size */
+}
+
+/* Footer styles for body */
+.faculty-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}

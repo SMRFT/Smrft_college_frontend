@@ -1,0 +1,22 @@
+/* General container for the campus-info-container section */
+.campus-info-container {
+  padding: 20px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.campus-info-section {
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+text-align: left;
+}
+
+/* Paragraph text styling */
+.campus-info-section p {
+font-size: 18px;
+line-height: 1.8;
+color: #333;
+margin-bottom: 25px;
+text-align: justify; /* Make the text aligned evenly */
+}

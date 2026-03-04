@@ -1,0 +1,96 @@
+/* Footer styles */
+
+/* src/components/Footer.css */
+/* Ensure the main content takes up all remaining space */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #152F54;
+  ;
+  /* Background color of the footer */
+  color: white;
+  /* Text color */
+  padding: 20px;
+  /* Padding for the footer */
+  display: flex;
+  flex-direction: column;
+  /* Stack items vertically */
+  align-items: center;
+  /* Center align items */
+  justify-content: space-between;
+  /* Space between sections */
+}
+
+.footer-container {
+  display: flex;
+  /* Use flexbox for footer sections */
+  justify-content: center;
+  /* Center the footer links */
+  width: 100%;
+  /* Full width */
+  max-width: 1200px;
+  /* Limit max width */
+  margin: 0 auto;
+  /* Center horizontally */
+}
+
+.footer-links {
+  display: flex;
+  /* Use flexbox for links */
+  flex-wrap: wrap;
+  /* Allow wrapping of links */
+  justify-content: center;
+  /* Center align links */
+}
+
+.footer-links h3 {
+  margin-right: 20px;
+  /* Space between title and links */
+}
+
+.footer-links ul {
+  list-style: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margin */
+  display: flex;
+  /* Display list items in a row */
+  flex-wrap: wrap;
+  /* Allow wrapping if necessary */
+}
+
+.footer-links ul li {
+  margin: 0 15px;
+  /* Space between links (horizontal) */
+}
+
+.footer-links a {
+  text-decoration: none;
+  /* Remove underline from links */
+  color: white;
+  /* Link color */
+  transition: color 0.3s ease;
+  /* Smooth transition for hover */
+}
+
+/* Hover effect for links */
+.footer-links a:hover {
+  color: #FFDD57;
+  /* Change color on hover */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  /* Space above bottom text */
+  text-align: center;
+  /* Center align text */
+  font-size: 0.9rem;
+  /* Smaller font size for copyright */
+}

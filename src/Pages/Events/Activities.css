@@ -1,0 +1,35 @@
+.activities-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activities-container h2 {
+    font-size: 28px;
+    color: #005b96;
+    margin-bottom: 15px;
+  }
+  
+  .activities-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+
+  .activities-image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .activities-image img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

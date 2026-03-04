@@ -1,0 +1,55 @@
+/* General container for the principal's message section */
+.principals-message-container {
+  padding: 20px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.principals-message-content {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.principals-message-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4a4a4a; /* Softer dark grey for easy reading */
+  margin-bottom: 25px;
+  text-align: justify; /* Justified text alignment for a clean look */
+}
+
+.principals-message-content p:last-of-type {
+  font-weight: bold;
+  text-align: right; /* Right-align the closing phrase */
+  margin-top: 20px;
+  color: #2a5298; /* Accent color for the closing */
+}
+
+
+/* Decorative quote style for a more elegant look */
+.principals-message-content::before {
+  font-size: 50px;
+  color: #2a5298; /* Accent color for the quote mark */
+  position: absolute;
+  left: -15px;
+  top: -10px;
+}
+
+.principals-message-content::after {
+  font-size: 50px;
+  color: #2a5298;
+  position: absolute;
+  right: -15px;
+  bottom: -10px;
+}
+
+/* Optional footer styling (if needed) */
+.principals-footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+  padding: 10px;
+}

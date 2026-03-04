@@ -1,0 +1,74 @@
+.library-container {
+  padding: 20px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.library-content-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px; /* Space between the content and image */
+}
+
+.library-content {
+  width: 60%;
+  text-align: left;
+}
+
+.library-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.library-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.library-content ul li {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.library-content ul li:before {
+  content: '➤'; /* Custom icon for bullet point */
+  color: #004f74;
+  margin-right: 12px;
+  font-size: 18px; /* Make bullet slightly larger */
+}
+
+.library-image {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.library-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for emphasis */
+  transition: transform 0.3s ease-in-out;
+}
+
+.library-image img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}

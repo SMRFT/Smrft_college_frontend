@@ -1,0 +1,100 @@
+.vision-mission-container {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  transition: all 0.3s ease-in-out;
+}
+
+.vision-mission-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 20px; /* Spacing between buttons */
+}
+.vision-mission-buttons button {
+  background: linear-gradient(135deg, #1E3F76, #152F54); /* Blue gradient */
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: background 0.4s ease, transform 0.2s ease;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.vision-mission-buttons button:hover {
+  background: linear-gradient(135deg, #314B78, #0F2340); /* Darker blue gradient for hover */
+  transform: translateY(-4px); /* Lift on hover */
+}
+
+
+.vision-mission-buttons button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(60, 149, 149, 0.6); /* Focus outline for accessibility */
+}
+
+.vision-mission-content {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: all 0.4s ease-in-out;
+}
+
+.vision-mission-content h1 {
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.vision-mission-content ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #333;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.vision-mission-content li {
+  margin-bottom: 15px;
+}
+
+.vision-mission-content p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .vision-mission-buttons {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .vision-mission-buttons button {
+      width: 100%;
+      padding: 14px 0;
+  }
+
+  .vision-mission-content {
+      padding: 20px;
+  }
+
+  .vision-mission-content h1 {
+      font-size: 24px;
+  }
+
+  .vision-mission-content ul, .vision-mission-content p {
+      font-size: 16px;
+  }
+}
